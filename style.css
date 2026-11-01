@@ -19,6 +19,6 @@ p, li { color: var(--ink); }
 .pill { display: inline-block; background: var(--accent); color: #fff; padding: 10px 18px; border-radius: 999px; text-decoration: none; font-weight: 600; }
 @media (prefers-color-scheme: dark) { .pill { color: #0e1c15; } }
 a { color: var(--accent); }
-nav { display: flex; gap: 18px; margin-top: 40px; font-size: 15px; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 40px; font-size: 15px; }
 ul { padding-left: 22px; }
 footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
