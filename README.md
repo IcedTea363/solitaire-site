@@ -15,3 +15,8 @@ images; system font stack only). Links between pages are relative. Keep the page
 behavior and its "Data Not Collected" privacy label, and update a page's "Last updated" date when it changes.
 
 Deployment details will be added separately.
+
+## Deploy
+
+`tools/deploy.sh` copies the committed pages to nginx in CT 104 (`solitaire-web`, 10.0.0.131:80) on the
+Proxmox host root@10.0.0.10. Nginx Proxy Manager (CT 102) terminates TLS for solitaire.nailhome.net.
